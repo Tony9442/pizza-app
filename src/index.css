@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body {
+  margin: 0;
+}
+
+.page-name {
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Nav-con {
+  display: flex;
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(132, 9, 9);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav-con ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+li {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li:hover {
+  color: black;
+}
+
+span {
+  color: white;
+}
+
+.carousel-inner {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.About-con {
+  margin-top: 30px;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.About-head {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.red {
+  color: rgb(122, 3, 3);
+}
+
+.Type-con {
+  margin-top: 20px;
+}
+
+.Type-con span {
+  color: rgb(121, 27, 27);
+}
+
+.Type-con h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Type {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.card-img-top-one {
+  height: 35vh !important;
+}
+
+footer {
+  background-color: #111;
+  margin: 20px;
+}
+
+.footer-con {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px;
+  
+}
+
+.socials a i {
+  font-size: 1rem; 
+  color: white;
+  opacity: 0.9;
+}
+
+.socials a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.footer-nav {
+  margin: 30px 0;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav li {
+  list-style: none;
+}
+
+.footer-nav ul a{
+  color: white;
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: 0.5;
+}
+
+.footer-nav ul li a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: white;
+}
+
+.desgin {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin: 0px 5px;
+}
